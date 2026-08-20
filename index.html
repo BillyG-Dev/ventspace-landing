@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VentSpace — Talk. Vent. Breathe.</title>
+  <meta name="description" content="VentSpace gives you a private space to talk, vent, and be heard. No judgment. No unsolicited advice. Just someone who listens." />
+  <meta name="theme-color" content="#f7f3ee" />
+
+  <meta property="og:title" content="VentSpace — Talk. Vent. Breathe." />
+  <meta property="og:description" content="Sometimes you don't need advice. You just need someone to listen." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="VentSpace home">
+      <span class="brand-mark">V</span>
+      <span>VentSpace</span>
+    </a>
+    <a class="header-link" href="#waitlist">Join the waitlist</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">A listening space for real life.</p>
+        <h1>Talk.<br /><em>Vent.</em><br />Breathe.</h1>
+        <p class="hero-text">
+          Sometimes you don't need advice. You don't need someone to fix it.
+          You just need someone to listen.
+        </p>
+        <a class="button button-primary" href="#waitlist">Be first to Vent</a>
+        <p class="microcopy">Private voice sessions · 15 or 30 minutes · No judgment</p>
+      </div>
+
+      <div class="hero-card reveal" aria-label="VentSpace session preview">
+        <div class="card-top">
+          <span class="status-dot"></span>
+          <span>VentSpace</span>
+          <span class="card-time">15:00</span>
+        </div>
+        <div class="quote">
+          <span class="quote-mark">“</span>
+          <p>You don't have to make it sound okay here.</p>
+        </div>
+        <div class="listener">
+          <div class="avatar">L</div>
+          <div>
+            <strong>Your listener</strong>
+            <span>Here to listen.</span>
+          </div>
+          <span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement">
+      <p class="section-kicker">Why VentSpace?</p>
+      <h2>Not every problem needs a solution.</h2>
+      <p>
+        We all have things we keep inside because we don't want to burden a
+        friend, start an argument, or hear what we should have done differently.
+        VentSpace is a place to let it out.
+      </p>
+    </section>
+
+    <section class="steps">
+      <div class="section-heading">
+        <p class="section-kicker">How it works</p>
+        <h2>Three simple steps.</h2>
+      </div>
+
+      <div class="step-grid">
+        <article class="step">
+          <span class="step-number">01</span>
+          <h3>Choose your space</h3>
+          <p>Pick a 15 or 30-minute private voice session when you're ready.</p>
+        </article>
+        <article class="step">
+          <span class="step-number">02</span>
+          <h3>Start talking</h3>
+          <p>You'll speak with a trained VentSpace listener who gives you room to be heard.</p>
+        </article>
+        <article class="step">
+          <span class="step-number">03</span>
+          <h3>Leave it here</h3>
+          <p>No judgment. No unsolicited advice. Just space to say what you need to say.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="promise">
+      <div class="promise-inner">
+        <p class="section-kicker">The VentSpace promise</p>
+        <blockquote>
+          “You don't have to have the right words.<br />
+          You don't have to have it all figured out.<br />
+          <em>You just have to show up.</em>”
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="waitlist" id="waitlist">
+      <div class="waitlist-copy">
+        <p class="section-kicker">Coming soon</p>
+        <h2>Be one of the first to have a VentSpace.</h2>
+        <p>
+          We're getting the first listening spaces ready. Leave your details
+          and we'll let you know when VentSpace opens.
+        </p>
+      </div>
+
+      <form class="waitlist-form" id="waitlistForm">
+        <label>
+          <span>Your name</span>
+          <input type="text" name="name" placeholder="Your first name" autocomplete="given-name" required />
+        </label>
+
+        <label>
+          <span>Email address</span>
+          <input type="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+        </label>
+
+        <label>
+          <span>I'm interested in...</span>
+          <select name="interest">
+            <option value="booking">Booking a VentSpace</option>
+            <option value="listener">Becoming a listener</option>
+            <option value="updates">Getting launch updates</option>
+          </select>
+        </label>
+
+        <button class="button button-primary button-full" type="submit">Join the waitlist</button>
+        <p class="form-note">We'll only use your details for VentSpace updates.</p>
+        <p class="form-success" id="formSuccess" role="status" hidden>
+          You're on the list. We'll be in touch. 🤍
+        </p>
+      </form>
+    </section>
+
+    <section class="boundary">
+      <p><strong>VentSpace is not therapy or a crisis service.</strong></p>
+      <p>
+        Our listeners provide a supportive listening space, not professional
+        mental-health treatment. If you are in immediate danger or need urgent
+        help, please contact your local emergency or crisis service.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="brand footer-brand">
+      <span class="brand-mark">V</span>
+      <span>VentSpace</span>
+    </div>
+    <p>Talk. Vent. Breathe.</p>
+    <p class="copyright">© <span id="year"></span> VentSpace. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
